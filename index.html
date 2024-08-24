@@ -93,10 +93,40 @@
               <li><a href="#">Contact</a></li>
             </ul>
           </div>
-          <div class="navbar-end flex flex-row gap-4 md:gap-6">
-            <i class="fa-solid fa-magnifying-glass text-lg md:text-2xl"></i>
+          <div class="navbar-end flex flex-row gap-3 md:gap-6">
+            <label class="swap swap-rotate">
+              <!-- this hidden checkbox controls the state -->
+              <input
+                type="checkbox"
+                class="theme-controller"
+                value="synthwave"
+              />
+
+              <!-- sun icon -->
+              <svg
+                class="swap-off h-5 w-5 md:h-8 md:w-8 fill-current"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M5.64,17l-.71.71a1,1,0,0,0,0,1.41,1,1,0,0,0,1.41,0l.71-.71A1,1,0,0,0,5.64,17ZM5,12a1,1,0,0,0-1-1H3a1,1,0,0,0,0,2H4A1,1,0,0,0,5,12Zm7-7a1,1,0,0,0,1-1V3a1,1,0,0,0-2,0V4A1,1,0,0,0,12,5ZM5.64,7.05a1,1,0,0,0,.7.29,1,1,0,0,0,.71-.29,1,1,0,0,0,0-1.41l-.71-.71A1,1,0,0,0,4.93,6.34Zm12,.29a1,1,0,0,0,.7-.29l.71-.71a1,1,0,1,0-1.41-1.41L17,5.64a1,1,0,0,0,0,1.41A1,1,0,0,0,17.66,7.34ZM21,11H20a1,1,0,0,0,0,2h1a1,1,0,0,0,0-2Zm-9,8a1,1,0,0,0-1,1v1a1,1,0,0,0,2,0V20A1,1,0,0,0,12,19ZM18.36,17A1,1,0,0,0,17,18.36l.71.71a1,1,0,0,0,1.41,0,1,1,0,0,0,0-1.41ZM12,6.5A5.5,5.5,0,1,0,17.5,12,5.51,5.51,0,0,0,12,6.5Zm0,9A3.5,3.5,0,1,1,15.5,12,3.5,3.5,0,0,1,12,15.5Z"
+                />
+              </svg>
+
+              <!-- moon icon -->
+              <svg
+                class="swap-on h-5 w-5 md:h-8 md:w-8 fill-current"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M21.64,13a1,1,0,0,0-1.05-.14,8.05,8.05,0,0,1-3.37.73A8.15,8.15,0,0,1,9.08,5.49a8.59,8.59,0,0,1,.25-2A1,1,0,0,0,8,2.36,10.14,10.14,0,1,0,22,14.05,1,1,0,0,0,21.64,13Zm-9.5,6.69A8.14,8.14,0,0,1,7.08,5.22v.27A10.15,10.15,0,0,0,17.22,15.63a9.79,9.79,0,0,0,2.1-.22A8.11,8.11,0,0,1,12.14,19.73Z"
+                />
+              </svg>
+            </label>
+            <i class="fa-solid fa-magnifying-glass text-base md:text-2xl"></i>
             <button
-              class="bg-primary text-white font-bold text-base lg:text-xl py-2 md:py-4 px-4 md:px-6 rounded-lg"
+              class="bg-primary text-white font-bold text-base lg:text-xl py-2 md:py-3 px-4 md:px-6 rounded-lg"
             >
               Get Ticket
             </button>
@@ -667,7 +697,7 @@
       </section>
 
       <!-- Clients Question -->
-      <section class="mt-16 md:mt-24 mb-10">
+      <section class="mt-16 md:mt-24">
         <div class="w-11/12 mx-auto">
           <!-- child-1 -->
           <div class="border-y-2 border-dashed py-8">
@@ -782,6 +812,132 @@
                   </p>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Get In Touch -->
+      <section class="mt-16 md:mt-24 mb-10">
+        <!-- child-1 -->
+        <div class="border-y-2 border-dashed py-8">
+          <div class="max-w-2xl mx-auto text-center space-y-6">
+            <h3 class="font-extrabold text-2xl md:text-4xl text-[#131318]">
+              Get In Touch
+            </h3>
+            <p class="font-semibold text-[#13131899] text-base">
+              Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+              turpis placerat dolor. Purus urna in sit nullam proin.
+            </p>
+          </div>
+        </div>
+
+        <!-- child-2 -->
+        <div class="mt-12 grid lg:gap-6 grid-cols-1 lg:grid-cols-3">
+          <!-- card-area -->
+          <div class="space-y-6 mb-8 lg:mb-0 border p-6 rounded-2xl col-span-1">
+            <!-- card-1 -->
+            <div class="bg-[#BCED6D1A] p-8 rounded-2xl">
+              <img src="./Images/Group 1171275317.png" alt="" class="mb-6" />
+              <span class="text-[#13131866]">Phone Number : </span>
+              <p class="font-extrabold text-lg text-[#131318]">
+                (+62) 123-321-543
+              </p>
+            </div>
+            <!-- card-2 -->
+            <div class="p-8 rounded-2xl bg-[#FDDD5F1A]">
+              <img src="./Images/Group 1171275318.png" alt="" class="mb-6" />
+              <span class="text-[#13131866]">Email : </span>
+              <p class="font-extrabold text-lg text-[#131318]">
+                hockeys@support.com
+              </p>
+            </div>
+            <!-- card-3 -->
+            <div class="bg-[#629CF31A] p-6 rounded-2xl">
+              <img src="./Images/Group 1171275321.png" alt="" class="mb-6" />
+              <span class="text-[#13131866]">Location : </span>
+              <p class="font-extrabold text-lg text-[#131318]">
+                152/1 Mohakhali Wireless Gate
+              </p>
+            </div>
+          </div>
+
+          <!-- input-area -->
+          <div class="col-span-2">
+            <div class="grid gap-6 grid-cols-1 md:grid-cols-2">
+              <!-- name -->
+              <div class="col-span-2 md:col-span-1">
+                <p class="font-bold text-xl text-[#131318] mb-4">Your Name</p>
+                <label
+                  class="input input-bordered px-6 py-9 flex items-center gap-2 bg-[#13131808] border-none"
+                >
+                  <input
+                    type="text"
+                    class="grow text-[#1313184D]"
+                    placeholder="Enter your full name"
+                  />
+                </label>
+              </div>
+              <!-- email -->
+              <div class="col-span-2 md:col-span-1">
+                <p class="font-bold text-xl text-[#131318] mb-4">Your Email</p>
+                <label
+                  class="input input-bordered px-6 py-9 flex items-center gap-2 bg-[#13131808] border-none"
+                >
+                  <input
+                    type="email"
+                    class="grow text-[#1313184D]"
+                    placeholder="mukit@gmail.com"
+                  />
+                </label>
+              </div>
+
+              <!-- Subject -->
+              <div class="col-span-2 md:col-span-1">
+                <p class="font-bold text-xl text-[#131318] mb-4">Subject</p>
+                <label
+                  class="input input-bordered px-6 py-9 flex items-center gap-2 bg-[#13131808] border-none"
+                >
+                  <input
+                    type="text"
+                    class="grow text-[#1313184D]"
+                    placeholder="Enter your subject"
+                  />
+                </label>
+              </div>
+
+              <!-- Phone Number -->
+              <div class="col-span-2 md:col-span-1">
+                <p class="font-bold text-xl text-[#131318] mb-4">
+                  Phone Number
+                </p>
+                <label
+                  class="input input-bordered px-6 py-9 flex items-center gap-2 bg-[#13131808] border-none"
+                >
+                  <input
+                    type="number"
+                    class="grow text-[#1313184D]"
+                    placeholder="Enter your phone number"
+                  />
+                </label>
+              </div>
+
+              <!-- Message -->
+              <textarea
+                class="textarea textarea-bordered col-span-2 row-span-12 text-[#1313184D] text-base bg-[#13131808] border-none"
+                placeholder="Write your message"
+              ></textarea>
+
+              <!-- button -->
+              <label
+                class="input px-6 py-9 flex items-center gap-2 bg-[#FF4240] border-none col-span-2"
+              >
+                <input
+                  type="button"
+                  class="grow text-white font-bold text-xl hover:cursor-pointer"
+                  value="Send Message"
+                />
+              </label>
             </div>
           </div>
         </div>
